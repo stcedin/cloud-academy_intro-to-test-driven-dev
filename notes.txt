@@ -46,3 +46,14 @@ JUnit 5
 @BeforeEach
 @AfterAll
 &AfterEach
+
+
+GitHub
+======
+Git hub actions can be used for CI/CD build, producing code packages that can be downloaded
+https://github.com/stcedin/cloud-academy_intro-to-test-driven-dev/actions
+
+Coveralls
+=========
+https://coveralls.io/
+This can be used for cloud based code coverga reports
