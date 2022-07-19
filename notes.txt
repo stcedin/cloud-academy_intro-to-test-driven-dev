@@ -1,0 +1,48 @@
+
+
+Test Driven Development Workflow
+===============================
+
+https://github.com/cloudacademy/java-tdd-bitcoinconverter  - A sperate branch is given for each of the demonstrations
+
+Uses JDK11 and JUnit5
+
+Test Drive Devlopmemnt (TDD) is an agile software development principle
+Focused on unit tests
+	Write Test -> Run Test (fail) -> Wrote Code -> Run Test (pass) -> CleanUp (Refactor) ----> Repeat (Small iterations)
+	
+	
+TDD - Red, Green Refactor
+	Red 	- Write Test, watch it fail
+	Green 	- Write just enough code to pass the test
+	Refactor - Improve code without modifying its behaviour
+	
+Clean Code - A handbook of agile software craftmanship.  Robert C Martin (Uncle Bob)
+3 rules of TDD
+	1. You must write a failing test before you write any production code
+	2. You must not write more of a test than is sufficient to fail, or fail to compile
+	3. You must not write more production code than is sufficient to make the currently failing test pass.
+Unit test introduced early, frequently and executed often	
+
+CI/CD - Continuous integration, continuous deploy
+	Unit tests, inte tests and E2E tests
+	
+Best Pactices
+	Individual tests should be small and focused
+	Test and asset for expected results
+	Test abd assert for edge cases and known error conditions
+	Execute tests regularly and often
+	Avoid creating tests which have external dependencies whose state is unknown and uncontrollable.
+
+Junit - Triple "A" pattern - Arrange, act, assert
+Unit test naming strategy - methodName_StateUnderTest_ExpectedBehaviour
+
+
+JUnit 5
+=======
+
+@Test
+@BeforeAll
+@BeforeEach
+@AfterAll
+&AfterEach
