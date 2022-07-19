@@ -300,7 +300,7 @@ public class ConverterSvcTest {
         var actual = converterSvc.convertBitcoins(Currency.USD, 2);
     
         //assert
-        double expected = -1;
+        double expected = -100;
         Assertions.assertEquals(expected, actual);
     }
 
